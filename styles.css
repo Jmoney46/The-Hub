@@ -9,8 +9,6 @@
   text-align: center;
 }
 
-.topnav a {
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
+.topnav button {
+  color: aliceblue;
 }
