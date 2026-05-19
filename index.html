@@ -14,8 +14,29 @@
             <input type="email" name="username" id="username" placeholder="Email">
             <input type="password" name="password" id="password" placeholder="Password">
             <div class="buttons">
-                <input type="date" name="date" id="date">
+                <div class="datebox">
+                    <input type="date" name="date" id="date">
+                </div>
+            </div>  
+            <div class="signin">
+                <button id="signbutton" name="signbutton">
+                    Sign In
+                </button>
             </div>
+
+            <script>
+                document.getElementById("signbutton").addEventListener("click", function () {
+                    
+                    // Redirects to other page
+                    alert("Sign In clicked, redirecting.");
+
+                    // The other page
+                    setTimeout(function () {
+                        window.location.href = "https://gmail.com"; //Relocating
+                    }, 2000); // THIS IS 2 SENCONDS
+
+                });
+            </script>
         </div>
     </div>
 </body>
