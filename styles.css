@@ -8,12 +8,14 @@ body {
 }
 
 .signbox {
-    width: 350px;
-    height: 250px;
+    width: 400px;
+    height: 350px;
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     padding: 20px;
+    font-family: cursive;
+    font-style: normal;
 }
 
 .boxes {
@@ -36,6 +38,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    color: black;
 }
 
 .boxes input:hover {
@@ -43,3 +46,25 @@ body {
     border-color: #4a90e2;
     transition: 0.3s;
 }
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.buttons input {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.buttons input:hover {
+    background-color: #e8f0ff;
+    border-color: #4a90e2;
+    transition: .03s;
+}
+
